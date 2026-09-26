@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+
+# Database (optional log/lock)
+*.sqlite3-journal
+
+# Environment & IDE
+.env
+.env.local
+.DS_Store
+.vscode/
+.idea/
